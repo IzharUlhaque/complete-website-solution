@@ -1,0 +1,50 @@
+body{
+	font-family: 'montserrat';	
+	overflow-x: hidden;
+}
+/*top bar*/
+#top-navbar{
+	background-color:#ffab4c;
+	font-size: 12px;
+	padding:5px 0;
+	letter-spacing: 2px
+}
+#top-navbar .nav-link{
+	padding-left:0;
+	padding-right: 0 
+}
+
+/*header*/
+#header{
+	background-color: #ff5f7e;
+	padding: 100px 0;
+}
+.display-1{
+	font-weight: 800;
+}
+#header p{
+	font-family: poppins;
+	letter-spacing: 2px;
+}
+#header img, 
+{
+	 transform: rotate(20deg);
+}
+/*about section*/
+button span{
+	display: none
+}
+button:hover span{
+	display: inline-block;
+	transition: all .3s ease-in-out;
+}
+#contact{
+	/*height: 100vh;*/
+	background-image: url('https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.4); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;	
+}
